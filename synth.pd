@@ -2,8 +2,8 @@
 #X obj 712 620 out1~;
 #X obj 13 97 metro 500;
 #X floatatom 13 51 5 0 0 0 - - -;
-#X obj 16 12 hsl 200 15 0 1000 0 0 empty empty empty -2 -8 0 10 -204800
--1 -1 19900 1;
+#X obj 16 12 hsl 200 15 0 3000 0 0 empty empty empty -2 -8 0 10 -204800
+-1 -1 0 1;
 #X obj 14 512 s w1;
 #X obj 183 228 r w1;
 #X obj 44 512 s w2;
@@ -14,41 +14,41 @@
 #X floatatom 42 171 5 0 0 0 - - -;
 #X obj 422 464 *~;
 #X obj 437 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -228856
--1 -261234 9900 1;
+-1 -261234 3200 1;
 #X msg 183 270 1;
 #X obj 320 364 *~;
 #X obj 183 307 adsr 1 1000 1000 0 1000;
 #X floatatom 335 270 5 0 0 0 - - -;
 #X obj 335 145 vsl 15 100 0 100 0 1 empty empty empty 0 -9 0 10 -204786
--1 -261234 0 1;
+-1 -261234 900 1;
 #X floatatom 395 405 5 0 0 0 - - -;
 #X obj 335 307 wave 135;
 #X obj 344 430 echo 1000;
 #X obj 395 145 vsl 15 100 0 1500 0 1 empty empty empty 0 -9 0 10 -228856
--1 -261234 9900 1;
+-1 -261234 7800 1;
 #X floatatom 437 405 5 0 0 0 - - -;
 #X obj 510 271 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 712 464 *~;
 #X obj 727 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -228856
--1 -261234 6200 1;
+-1 -261234 0 1;
 #X msg 473 270 1;
 #X obj 610 364 *~;
 #X obj 473 307 adsr 1 1000 1000 0 1000;
 #X floatatom 625 270 5 0 0 0 - - -;
 #X obj 625 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -204786
--1 -261234 2390 1;
+-1 -261234 0 1;
 #X floatatom 685 405 5 0 0 0 - - -;
 #X obj 625 307 wave 135;
 #X obj 634 430 echo 1000;
 #X obj 685 145 vsl 15 100 15 1500 1 1 empty empty empty 0 -9 0 10 -228856
--1 -261234 6200 1;
+-1 -261234 1500 1;
 #X floatatom 727 405 5 0 0 0 - - -;
 #X obj 800 271 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 1002 464 *~;
 #X obj 1017 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -228856
--1 -261234 5000 1;
+-1 -261234 0 1;
 #X msg 763 270 1;
 #X obj 900 364 *~;
 #X obj 763 307 adsr 1 1000 1000 0 1000;
@@ -65,7 +65,7 @@
 -1 -1;
 #X obj 1302 464 *~;
 #X obj 1317 145 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -228856
--1 -261234 4200 1;
+-1 -261234 0 1;
 #X msg 1063 270 1;
 #X obj 1200 364 *~;
 #X obj 1063 307 adsr 1 1000 1000 0 1000;
@@ -88,13 +88,13 @@
 #X obj 774 16 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 238 195 vsl 15 50 10 1000 1 1 empty empty empty 0 -9 0 10 -228856
--1 -261234 4900 1;
+-1 -261234 2500 1;
 #X obj 257 195 vsl 15 50 0 1000 0 1 empty empty empty 0 -9 0 10 -228856
--1 -261234 0 1;
+-1 -261234 3500 1;
 #X obj 276 195 vsl 15 50 0 100 0 1 empty empty empty 0 -9 0 10 -228856
--1 -261234 0 1;
+-1 -261234 1200 1;
 #X obj 295 195 vsl 15 50 0 1000 0 1 empty empty empty 0 -9 0 10 -228856
--1 -261234 0 1;
+-1 -261234 1000 1;
 #X obj 13 129 count 8;
 #X obj 94 393 s w1;
 #X obj 12 320 sel 0 1 2 3 4 5 6 7;
